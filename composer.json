@@ -15,5 +15,8 @@
         "psr-4": {
             "Batmage\\CreditCardValidator\\": "src/"
         }
+    },
+    "scripts": {
+        "test": "php vendor/bin/phpunit --colors --bootstrap vendor/autoload.php tests/"
     }
 }

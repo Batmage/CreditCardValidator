@@ -9,4 +9,4 @@ php:
 before_script:
   - composer install
 
-script: phpunit --colors --bootstrap vendor/autoload.php tests/
+script: composer test 
