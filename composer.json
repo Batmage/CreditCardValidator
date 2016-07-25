@@ -1,0 +1,17 @@
+{
+    "name": "robbieaverill/credit-card-validator",
+    "description": "A simple credit card validator using the Luhn algorithm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robbie Averill",
+            "email": "robbie.averill@kathmandu.co.nz"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CreditCardValidator\\": "src/"
+        }
+    }
+}
