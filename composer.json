@@ -1,5 +1,5 @@
 {
-    "name": "robbieaverill/credit-card-validator",
+    "name": "batmage/credit-card-validator",
     "description": "A simple credit card validator using the Luhn algorithm",
     "license": "MIT",
     "authors": [
@@ -8,10 +8,12 @@
             "email": "robbie.averill@kathmandu.co.nz"
         }
     ],
-    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
     "autoload": {
         "psr-4": {
-            "CreditCardValidator\\": "src/"
+            "Batmage\\CreditCardValidator\\": "src/"
         }
     }
 }

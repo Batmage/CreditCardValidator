@@ -1,6 +1,5 @@
 <?php
-
-namespace Batmage\Filter;
+namespace Batmage\CreditCardValidator\Filter;
 
 /**
  * Filter classes should filter incoming data against a variety of conditions
@@ -8,7 +7,7 @@ namespace Batmage\Filter;
  * @package CreditCardValidator
  * @author  Robbie Averill <robbie@averill.co.nz>
  */
-interface Interface
+interface FilterInterface
 {
     /**
      * Filter the input data, returning sanitised data

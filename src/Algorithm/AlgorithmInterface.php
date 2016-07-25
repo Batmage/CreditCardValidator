@@ -1,6 +1,5 @@
 <?php
-
-namespace Batmage\Algorithm;
+namespace Batmage\CreditCardValidator\Algorithm;
 
 /**
  * Algorithm classes should declare a public validate() method
@@ -8,7 +7,7 @@ namespace Batmage\Algorithm;
  * @package CreditCardValidator
  * @author  Robbie Averill <robbie@averill.co.nz>
  */
-interface Interface
+interface AlgorithmInterface
 {
     /**
      * Validate the input data against a specific algorithm, returning a boolean for the result

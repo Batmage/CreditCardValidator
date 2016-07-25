@@ -1,6 +1,5 @@
 <?php
-
-namespace Batmage\Filter;
+namespace Batmage\CreditCardValidator\Filter;
 
 /**
  * The default filter will strip whitespaces and dashes from the incoming data
@@ -8,7 +7,7 @@ namespace Batmage\Filter;
  * @package CreditCardValidator
  * @author  Robbie Averill <robbie@averill.co.nz>
  */
-class Default implements Interface
+class FilterDefault implements FilterInterface
 {
     /**
      * {@inheritDoc}
